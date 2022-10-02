@@ -6,7 +6,7 @@
 }
 
 .accountleft {
-  background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+  background-image: linear-gradient(to right, #f0c27b, #4b1248);
 
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .accountright img:hover {
