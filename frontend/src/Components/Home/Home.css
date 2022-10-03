@@ -1,7 +1,7 @@
 .home {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 400px;
+  grid-template-columns: 1fr 300px;
   height: 100vh;
 }
 
@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 .homeright {
-  padding: 2vmax;
+  padding: 1vmax;
   box-sizing: border-box;
   overflow-y: auto;
 }
@@ -29,11 +29,11 @@
   transition: all 0.5s;
 }
 .homeUser > img {
-  height: 3vmax;
-  width: 3vmax;
+  height: 4vmax;
+  width: 4vmax;
   margin: 1vmax;
   border-radius: 100%;
-  border: 3px solid rgb(255, 201, 201);
+  border: 3px solid hsl(291deg 68% 51%);
 }
 
 .homeUser:hover {
