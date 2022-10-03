@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 600px) {
   .home {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 220px;
   }
 
   .homeleft {
@@ -52,14 +52,14 @@
 }
 
 
-@media only screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
 
   .home {
     grid-template-columns: 1fr 250px;
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media screen and (max-width: 850px) {
 
   .home {
     grid-template-columns: 1fr 230px;
@@ -67,7 +67,7 @@
 }
 
 
-@media only screen and (max-width: 770px) {
+@media screen and (max-width: 770px) {
 
   .home {
     grid-template-columns: 1fr 220px;
