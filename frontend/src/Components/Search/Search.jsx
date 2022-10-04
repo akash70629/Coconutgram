@@ -20,13 +20,13 @@ const Search = () => {
     <div className="search">
       <form className="searchForm" onSubmit={submitHandler}>
         <Typography variant="h3" style={{ padding: "2vmax" }}>
-          Coconut Gram
+        🥥 Gram
         </Typography>
 
         <input
           type="text"
           value={name}
-          placeholder="Name"
+          placeholder="Name 🥥"
           required
           onChange={(e) => setName(e.target.value)}
         />
