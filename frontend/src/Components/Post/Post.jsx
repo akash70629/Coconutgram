@@ -109,12 +109,19 @@ const Post = ({
         />
 
         <Link to={`/user/${ownerId}`}>
-          <Typography fontWeight={700}>{ownerName}</Typography>
+          <Typography fontWeight={700} 
+          
+          style={{
+          background : "linear-gradient(to right, #121FCF 0%, #CF1512 100%)",
+          WebkitBackgroundClip :"text",
+          WebkitTextFillColor: "transparent" }}
+          
+          >{ownerName}</Typography>
         </Link>
 
         <Typography
-          fontWeight={100}
-          color="rgba(0, 0, 0, 0.582)"
+          fontWeight={500}
+          color="rgb(38 61 41)"
           style={{ alignSelf: "center" }}
         >
           {caption}

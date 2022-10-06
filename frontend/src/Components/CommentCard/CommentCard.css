@@ -1,7 +1,7 @@
 .commentUser {
   display: flex;
   align-items: center;
-  color: rgba(0, 0, 0, 0.507);
+  color: rgb(89 33 200);
 }
 
 .commentUser > a {

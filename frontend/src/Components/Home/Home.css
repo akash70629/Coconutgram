@@ -29,8 +29,8 @@
   transition: all 0.5s;
 }
 .homeUser > img {
-  height: 9vmax;
-  width: 9vmax;
+  height: 4vmax;
+  width: 4vmax;
   margin: 1vmax;
   border-radius: 100%;
   border: 3px solid hsl(291deg 68% 51%);
