@@ -390,7 +390,7 @@ exports.forgotPassword = async (req, res) => {
       "host"
     )}/password/reset/${resetPasswordToken}`;
 
-    const message = `Reset Your Password by clicking on the link below: \n\n ${resetUrl}`;
+    const message = `Reset Your Password by clicking on the link below: \n\n ${resetUrl} From Coc🥥nut Gram`;
 
     try {
       await sendEmail({

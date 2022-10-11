@@ -69,8 +69,8 @@
 
 @media screen and (max-width: 600px) {
   .account {
-    grid-template-columns: 1fr 2fr;
-    display: inline-block;
+    /* grid-template-columns: 1fr 2fr; */
+    display: block;
   }
 
   .accountleft {

@@ -76,7 +76,7 @@ const Account = () => {
             />
           ))
         ) : (
-          <Typography variant="h6">You have not made any post</Typography>
+          <Typography variant="h6">No posts yet !!! 😕😕</Typography>
         )}
       </div>
       <div className="accountright">
