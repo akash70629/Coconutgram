@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api/v1',
     createProxyMiddleware({
-      target: 'https://coconutgram.onrender.com',
+      target: 'http://localhost:4000',
       changeOrigin: true,
     })
   );
